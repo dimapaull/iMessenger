@@ -2,7 +2,6 @@
 This application allows two people to communicate, authentication is applied and old messages are downloaded.
 - This app is based on StoryBoard. 
 - UIKit/Storyboard/MVC.
-- Used API.
 - Used CocoaPods.
 - Used Google Firebase/FirebaseAuthenfication/CoreData.
 
