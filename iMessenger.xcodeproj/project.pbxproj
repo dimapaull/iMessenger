@@ -58,6 +58,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225DDE3729F08FB7004E71BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				227599AF29E8131300BEC185 /* Main.storyboard */,
+				22818C6D29EC880400EBF223 /* MessageCell.swift */,
+				22818C6E29EC880400EBF223 /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		225DDE3829F08FC1004E71BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				227599BD29E813BC00BEC185 /* RegisterViewController.swift */,
+				227599AD29E8131300BEC185 /* WelcomeViewController.swift */,
+				227599C129E8143A00BEC185 /* ChatViewController.swift */,
+				227599BF29E8142C00BEC185 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2275999D29E8131300BEC185 = {
 			isa = PBXGroup;
 			children = (
@@ -79,21 +100,16 @@
 		227599A829E8131300BEC185 /* iMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				225DDE3829F08FC1004E71BF /* Controller */,
+				225DDE3729F08FB7004E71BF /* View */,
 				2228FC7229EB420C006AD264 /* Constants.swift */,
 				227599A929E8131300BEC185 /* AppDelegate.swift */,
 				227599AB29E8131300BEC185 /* SceneDelegate.swift */,
-				227599AD29E8131300BEC185 /* WelcomeViewController.swift */,
-				227599AF29E8131300BEC185 /* Main.storyboard */,
-				227599BF29E8142C00BEC185 /* LoginViewController.swift */,
-				227599C129E8143A00BEC185 /* ChatViewController.swift */,
 				2228FC7429EB4FEF006AD264 /* Message.swift */,
-				227599BD29E813BC00BEC185 /* RegisterViewController.swift */,
 				227599B229E8131600BEC185 /* Assets.xcassets */,
 				227599B429E8131600BEC185 /* LaunchScreen.storyboard */,
 				227599B729E8131600BEC185 /* Info.plist */,
 				22D456F629E9F3A800726D7C /* GoogleService-Info.plist */,
-				22818C6D29EC880400EBF223 /* MessageCell.swift */,
-				22818C6E29EC880400EBF223 /* MessageCell.xib */,
 			);
 			path = iMessenger;
 			sourceTree = "<group>";
